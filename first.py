@@ -1,4 +1,4 @@
-print("hello worls ,1")
+print("hello world,1")
 #this is single line comment
 ''' this is
 multi line comment''' 
@@ -39,7 +39,7 @@ print(5//3)#floor division
 print(5*5)#multiplication
 print(5**3)#exponential
 print(5%3)#modulus
-a=20 #calculator using two nubers
+a=20 #calculator using two numbers
 b=30
 print("the value of", a, "+", b, "is:", a+b)
 print("the value of", a, "-", b, "is:", a-b)
@@ -59,34 +59,34 @@ e=c+d # automatically convert e to float
 print(e)
 print(type(e))
 # user input
-# a = input("enter your name:")
-# print("my name is", a)
-# x=input("enter first number:")
-# y=input("enter second number:")
-# print(int(x)+int(y))
-# a = input("Enter first number:")
-# b = input("Enter second number:")
-# print(int(a) * int(b))
+a = input("enter your name:")
+print("my name is", a)
+x=input("enter first number:")
+y=input("enter second number:")
+print(int(x)+int(y))
+a = input("Enter first number:")
+b = input("Enter second number:")
+print(int(a) * int(b))
 # string in python
-# name = "rohan"
-# print("hello, "+ name)
-# apple = "he said, \"i want to eat an apple"
-# print(apple)
-# banana = 'he said, "i want to eat an banana'
-# print(banana)
-# #multi line srting
-# mango = '''he said, 
-# hi i am good
-# i want to eat mango'''
-# print(mango)
+name = "rohan"
+print("hello, "+ name)
+apple = "he said, \"i want to eat an apple"
+print(apple)
+banana = 'he said, "i want to eat an banana'
+print(banana)
+# #multi line string
+mango = '''he said, 
+hi i am good
+i want to eat mango'''
+print(mango)
 #INDAX START FROM 0
-# print(name[0])
-# print(name[1])
-# print(name[2])
-# print(name[3])
-# print("lets use a for loop\n")
-# for character in mango:
-#     print(character)
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+print("lets use a for loop\n")
+for character in mango:
+    print(character)
 name = "yahya,maryam"
 print(name[0:4])
 #length of string
@@ -94,15 +94,15 @@ print(len(name))
 fruit = "mango"
 print("mango is", len(fruit), "letter word")
 #string slicing
-# print(fruit[0:3])
-# print(fruit[:3])
-# print(fruit[1:3])including 0 not 3
-# print(fruit[:]) # show full string
-# print(fruit[0:-3]) # 5-3=2, mango-3=ma
-# print(fruit[-1:-3]) #5-1=4,5-3=2(4:2)nothing will show
-# print(fruit[-3:-1])#5-3=2,5-1=4(2:4) including 0 but not 4
-# nm="harry"
-# print(nm[-4:-2]) #5-4=1,5-2=3(1:3)inclugin 0 not 3
+print(fruit[0:3])
+print(fruit[:3])
+print(fruit[1:3])#including 0 not 3
+print(fruit[:]) # show full string
+print(fruit[0:-3]) # 5-3=2, mango-3=ma
+print(fruit[-1:-3]) #5-1=4,5-3=2(4:2)nothing will show
+print(fruit[-3:-1])#5-3=2,5-1=4(2:4) including 0 but not 4
+nm="harry"
+print(nm[-4:-2]) #5-4=1,5-2=3(1:3)inclugin 0 not 3
 # strings are immutable
 # rstrip(remove any trailing(!) character)
 nm="yahya!!!"
@@ -131,62 +131,62 @@ print(str1.endswith("to",4,10))
 #find() retuns the first occurence of given value retunce index if not found retuns -1
 print(str1.find("to"))
 # index method search for first occurence of given value and retuns the where it is present. if given value absent then rais an exception
-# print(str1.index("tohh"))
+print(str1.index("tohh"))
 # isalpha() A-Z,a-z,0-9 if present retuns true else false
-# a="sadiqa"
-# print(a.isalpha())
-# #islower() retuns true or false
-# print(a.islower())
+a="sadiqa"
+print(a.isalpha())
+# islower() retuns true or false
+print(a.islower())
 # #isprintable 
-# print(a.isprintable()) #true
+print(a.isprintable()) #true
 # b="welcome to the world\n"
-# print(b.isprintable()) #false
-# #isspace() wide space using space bar or tab button show true else false
-# name="      "
-# print(name.isspace())
-# #istittle(if the first letter of the string is capitalize then true else false)
-# name1="My Name Is Sadiqa"
-# print(name1.istitle()) 
+print(b.isprintable()) #false
+# isspace() wide space using space bar or tab button show true else false
+name="      "
+print(name.isspace())
+# istittle(if the first letter of the string is capitalize then true else false)
+name1="My Name Is Sadiqa"
+print(name1.istitle()) 
 # #startswith
-# x = "python is a language"
-# print(x.startswith("python"))
+x = "python is a language"
+print(x.startswith("python"))
 #swapcase() change lowwer to upper and upper to lower
 print(x.swapcase())
 #conditional operators
 # < , > , <= , >= , == , !=
-# a=(int(input("enter your age: ")))
-# print("your age is", a)
-# print(a>18)
-# print(a<18)
-# print(a>=18)
-# print(a<=18)
-# print(a==18)
-# print(a!=18)
+a=(int(input("enter your age: ")))
+print("your age is", a)
+print(a>18)
+print(a<18)
+print(a>=18)
+print(a<=18)
+print(a==18)
+print(a!=18)
 # if else 1 in python
-# a=int(input("enter your age: "))
-# print("your age is", a)
-# if(a>18):
-#     print("you can drive")
-# else:
-#     print("you can't drive")
+a = int(input("Enter your age:"))
+print("your age is", a)
+if (a>18):
+    print("you can drive.")
+else:
+    print("you can not drive.")
 #if else 2
 appleprice=210
 budget=200
-# if(appleprice<=budget):
-#     print("alexa, add 1kg apple to the cart.")
-# else:
-#     print("alexa, do not add apple to the cart.")
-# # if else elif
-#     a=int(input("Enter the value of num: "))
-#     if(a<0):
-#         print("number is negative.")
-#     elif(a==0):
-#         print("number is zero.")
-#     elif(a==999):
-#         print("number is special.")    
-#     else:
-#         print("number is positive.") 
-#     print("i am happy now")           
+if(appleprice<=budget):
+    print("alexa, add 1kg apple to the cart.")
+else:
+    print("alexa, do not add apple to the cart.")
+# if else elif
+    a=int(input("Enter the value of num: "))
+    if(a<0):
+        print("number is negative.")
+    elif(a==0):
+        print("number is zero.")
+    elif(a==999):
+        print("number is special.")    
+    else:
+        print("number is positive.") 
+    print("i am happy now")           
 # nested if statement
 num = 18
 if(num < 0):
