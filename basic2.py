@@ -1,4 +1,8 @@
 # dictionary in python
+# mapped data:dict 
+# dict is a collection of key value pair
+dict1 = {"id":1,"name":"sadiqa","age":30,"canvote":"true"}
+print(dict1)
 dic = {"name": "yahya", "age": 2, "colour": "fair", "hobby": "crying"}
 print(dic["name"]) # if not found show error
 print(dic.get("name")) # if not found show (none)

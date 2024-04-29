@@ -1,11 +1,15 @@
 print("hello world,1")
+
 #this is single line comment
 ''' this is
-multi line comment''' 
+multi line comment'''
+
 print("first line \nsecond line")
+
 print("this is \"python\"")
-print("hay",1,2,sep="~",end="007\n")
-print("hello")
+
+print("hay",1,2,sep="~",end="007\nhello")
+
 #variable and data types
 a=1
 a1=123
@@ -14,23 +18,14 @@ c=True
 d=None
 e=complex(5,4)
 f=2.2
-#printin data types
+#printing data types
 print(a+a1)
 print("type of a is", type(a))
 print("type of a is", type(b))
 print("type of a is", type(c))
 print(e)
 print(type(f))
-# list is a collection of data seprated with comma and enclose with perenthess
-list1=[1,2],[2,2.4],[-4,4],["apple","banana"]
-print(list1)
-# tuple is a collection of data seprated with comma and enclose with perenthess this is immutable(can not change)
-tuple1=(("apple","banana"),("parrot","sparrow"),("tiger","lion"))
-print(tuple1)
-# mapped data:dict 
-# dict is a collection of key value pair
-dict1 = {"id":1,"name":"sadiqa","age":30,"canvote":"true"}
-print(dict1)
+
 #oprators
 print(5+5)#addition oprator
 print(5-3)#substraction

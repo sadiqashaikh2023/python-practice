@@ -1,4 +1,6 @@
-
+# list is a collection of data seprated with comma and enclose with perenthess
+list1=[1,2],[2,2.4],[-4,4],["apple","banana"]
+print(list1)
 # we can add string in list
 l = [3,5,8,"apple","true"]
 print(l)
@@ -57,6 +59,9 @@ print(price)
 k = price+m # to merge 2 list
 print(k)
 
+# tuple is a collection of data seprated with comma and enclose with perenthess this is immutable(can not change)
+tuple1=(("apple","banana"),("parrot","sparrow"),("tiger","lion"))
+print(tuple1)
 # tuple in python
 # tubles are unchangable
 # we can add string in tuple
