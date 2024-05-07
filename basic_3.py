@@ -50,11 +50,11 @@ print(output)
 
 # # Q:write a program to reverse order of word presnt in given string
 
-# a = "python is very easy language"
-# l = a.split()
-# l1 = l[::-1]
-# b = ' '.join(l1)
-# print(b)
+a = "python is very easy language"
+l = a.split()
+l1 = l[::-1]
+b = ' '.join(l1)
+print(b)
 
 a = "my name is sadiqa"
 b = a.split()
@@ -69,7 +69,7 @@ i = len(x)-1
 while i >= 0:
     output.append(x[i])
     i = i-1
-print(' '.join(output))          
+print(' '.join(output))        
 
 # Q: write a program to reverse internal content of each word
 
@@ -84,7 +84,20 @@ print(l1)
 # Q: write a program to reverse internal content of every second word of given string
 # output should be like("one owt three ruof five xis")
 # even num indax same odd number index reverse
-     
+s = input("enter your name:")
+x = s.split(" ")
+i = 0
+l1 = []
+while i < len(x):
+    if i%2 == 0:
+        l1.append(x[i])
+    else:
+        l1.append(x[i][::-1])
+    i = i + 1
+l2 = ' '.join(l1)
+print(l2)
+
+
 
 # Q: write a program to print the charecters present at odd numbers and even numbers
 
@@ -106,9 +119,14 @@ a = "ravi"
 b = "teja"
 output = ''
 i,j = 0,0
-while len(a)<0 or len(b)<0:
-    output = output+(a[i])+(b[j])
-print(output)
+while i<len(a) or j<len(b):
+    if i < len(a):
+        output = output+(a[i])
+        i = i+1
+    if j < len(b):
+        output= output+(b[j])
+        j = j+1
+print(output)       
 
 # Q: Program to sort characters of the string, first alphabet symbols followed by digits
 # output = ABDG1378 
@@ -121,7 +139,7 @@ for ch in x:
     else:
         num.append(ch)
 l = ''.join(sorted(strg)+sorted(num)) 
-print(l)       
+print(l)
 
 # Q:Program for the requirement,input: a4b3c2 and expected output: aaaabbbcc
 
@@ -135,7 +153,7 @@ for ch in a:
         output+=x*b
 print(output)
 
-# output should be hh4444b
+# output should be hhjjjjb
 a = "2h4j1b"
 output = ''
 count = 0
