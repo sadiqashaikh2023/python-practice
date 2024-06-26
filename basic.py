@@ -1,4 +1,6 @@
-# list is a collection of data seprated with comma and enclose with perenthess
+# list are order collection of date items
+# list is a collection of data seprated with comma and enclose with square bracket[]
+# list are changable
 list1=[1,2],[2,2.4],[-4,4],["apple","banana"]
 print(list1)
 # we can add string in list
