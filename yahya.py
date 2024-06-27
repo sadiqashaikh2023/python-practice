@@ -99,7 +99,7 @@ def average(*numbers):
         sum = sum + i
         print("the average is", sum/len(numbers))
 
-        average(5,5,6)
+        average(5,5,6)   
 
 
 
