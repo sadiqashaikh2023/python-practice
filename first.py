@@ -232,7 +232,7 @@ elif(hrs >=12 and hrs < 17):
 elif(hrs >= 17 and hrs < 21):
     print("good evening", a)
 else:
-    print("good night", a)
+    print("good night", a)  
 
 
 
