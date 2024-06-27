@@ -63,7 +63,7 @@ while (left < right):
     elif arry[left]+arry[right] == sum1:
         print("value of  left and right arry is ",arry[left], "&",arry[right])
         left = left + 1
-        right = right - 1
+        right = right - 1   
 
 
 
