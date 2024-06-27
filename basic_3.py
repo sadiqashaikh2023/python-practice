@@ -162,4 +162,4 @@ for ch in a:
         count = int(ch)
     else:
         output= output+ch*count
-print(output)
+print(output)    
